@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <main>
       <SearchForm setSearchTerm={setSearchTerm} />
-      <CocktailsList loading={loading} cocktail={cocktail} />
+      <CocktailsList loading={loading} cocktails={cocktail} />
     </main>
   );
 }
