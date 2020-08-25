@@ -1,6 +1,6 @@
-# Project: Catalogue of Recipes
+# Project: Catalog of Cocktails
 
-This is a project for building a catalog of recipes from an API. A user can browse through the recipes and be able to filter them based on the need of the user.
+This is a project for building a catalog of cocktails from a Cocktail API. A user can browse through the cocktails and be able to filter them based on the need of the user.
 
 ![screenshot](./dist/images/recipes.png)
 
@@ -14,16 +14,16 @@ This is a project for building a catalog of recipes from an API. A user can brow
 
 ## Live Version
 
-[Live Link](https://catalogue-of-recipes.herokuapp.com/)
+[Live Link](https://catalog-of-cocktails.herokuapp.com/)
 
 
 ## Getting Started
 
 Open your terminal or text editor and use next command
 
-        git clone https://github.com/emmanuelkamala/catalogue-of-recipes.git
+        git clone https://github.com/emmanuelkamala/catalog-of-cocktails.git
 
-        cd catalogue-of-recipes
+        cd catalog-of-cocktails
 
         Run 'npm install' command to install package dependencies.
 
