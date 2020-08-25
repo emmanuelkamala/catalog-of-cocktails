@@ -1,0 +1,16 @@
+/* 
+====== 
+About
+======
+*/
+.about {
+    width: var(--smallWidth);
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+  }
+  .paragraph {
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 20px;
+  }
