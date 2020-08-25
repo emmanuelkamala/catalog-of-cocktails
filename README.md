@@ -2,7 +2,7 @@
 
 This is a project for building a catalog of cocktails from a Cocktail API. A user can browse through the cocktails and be able to filter them based on the need of the user.
 
-![screenshot](./dist/images/cocktails.png)
+![screenshot](./public/images/cocktails.png)
 
 ## Built With
 

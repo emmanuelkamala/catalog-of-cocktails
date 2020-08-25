@@ -1,0 +1,62 @@
+/* 
+====== 
+Cocktail 
+======
+*/
+
+.cocktail {
+  background: #fff;
+  margin-bottom: 2rem;
+  box-shadow: var(--lightShadow);
+  transition: var(--mainTransition);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: var(--mainBorderRadius);
+}
+.cocktail:hover {
+  box-shadow: var(--darkShadow);
+}
+.cocktail img {
+  border-top-left-radius: var(--mainBorderRadius);
+  border-top-right-radius: var(--mainBorderRadius);
+}
+.cocktail-footer {
+  padding: 1.5rem;
+}
+.cocktail-footer h3,
+.cocktail-footer h4,
+.cocktail-footer p {
+  margin-bottom: 0.3rem;
+}
+.cocktail-footer h3 {
+  font-size: 2.2rem;
+}
+.cocktail-footer p {
+  color: var(--darkGrey);
+  margin-bottom: 0.5rem;
+}
+
+.btn,
+.btnWhite,
+.btnPrimary {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #476a2e;
+  border: 2px solid #476a2e;
+  padding: 0.45rem 0.8rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  font-size: 0.8rem;
+  background: transparent;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+.btnDetails {
+  padding: 0.25rem 0.4rem;
+}
+.btnDetails:hover {
+  background: #d4e6a5;
+  border-color: #d4e6a5;
+}
