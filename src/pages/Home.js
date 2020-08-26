@@ -14,6 +14,7 @@ export default function Home() {
         const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${searchTerm}`);
         const data = await response.json();
         const {drinks} = data;
+       
         if (drinks) {
           const newCocktail = drinks.map(item => {
             const {idDrink, strDrink, strDrinkThumb, strAlcoholic, strGlass} = item;

@@ -1,0 +1,65 @@
+/* 
+====== 
+Cocktail
+======
+*/
+
+.cocktail-section {
+  text-align: center;
+}
+.drink {
+  width: var(--smallWidth);
+  max-width: var(--fullWidth);
+  margin: 0 auto;
+  text-align: left;
+}
+.drink img {
+  border-radius: var(--mainBorderRadius);
+}
+.drink p {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.drink span {
+  margin-right: 0.5rem;
+}
+.drink-info {
+  padding-top: 2rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+}
+
+.drink {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.btn,
+.btnWhite,
+.btnPrimary {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #476a2e;
+  border: 2px solid #476a2e;
+  padding: 0.45rem 0.8rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  font-size: 0.8rem;
+  background: transparent;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
