@@ -14,7 +14,7 @@ This is a project for building a catalog of cocktails from a Cocktail API. A use
 
 ## Live Version
 
-[Live Link](https://catalog-of-cocktails.herokuapp.com/)
+[Live Link](http://catalog-of-cocktails.herokuapp.com/)
 
 
 ## Getting Started
