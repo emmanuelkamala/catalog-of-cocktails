@@ -116,7 +116,6 @@ Buttons
   font-size: 0.8rem;
   background: transparent;
   border-radius: var(--mainBorderRadius);
-  display: inline-block;
 }
 
 .btn:hover {
@@ -163,7 +162,6 @@ Buttons
   border-color: var(--primaryLightColor);
 }
 
-
 /*
 ======
 Cocktails List
@@ -201,9 +199,8 @@ Cocktails List
     gap: 3rem;
     align-items: center;
   }
-  
+
   .drink-info {
     padding-top: 0;
   }
 }
-
