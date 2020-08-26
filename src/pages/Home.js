@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from 'react';
 import CocktailsList from '../components/CocktailList';
 import SearchForm from '../components/SearchForm';
 
@@ -13,30 +13,37 @@ export default function Home() {
       try {
         const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${searchTerm}`);
         const data = await response.json();
-        const {drinks} = data;
-       
+        const { drinks } = data;
+
         if (drinks) {
           const newCocktail = drinks.map(item => {
-            const {idDrink, strDrink, strDrinkThumb, strAlcoholic, strGlass} = item;
+            const { 
+              idDrink,
+              strDrink,
+              strDrinkThumb,
+              strAlcoholic,
+              strGlass
+            } = item;
+
             return {
-              id:idDrink,
+              id: idDrink,
               name: strDrink,
               image: strDrinkThumb,
               info: strAlcoholic,
-              glass: strGlass
-            }
-          })
+              glass: strGlass,
+            };
+          });
           setCocktail(newCocktail);
         } else {
-          setCocktail([])
+          setCocktail([]);
         }
-      } catch(error){
+      } catch (error) {
         console.log(error);
       }
       setLoading(false);
     }
     getDrinks();
-  }, [searchTerm])
+  }, [searchTerm]);
 
   return (
     <main>
