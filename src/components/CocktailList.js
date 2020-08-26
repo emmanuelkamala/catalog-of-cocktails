@@ -21,10 +21,10 @@ export default function CocktailList({ cocktails, loading }) {
         {
           cocktails.map(item => {
             return (
-            <Cocktail key={item.id} {...item} />
-            )
+              <Cocktail key={item.id} {...item} />
+            );
           })
-        };
+        }
       </div>
     </section>
   );

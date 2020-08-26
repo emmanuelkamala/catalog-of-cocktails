@@ -17,12 +17,12 @@ export default function Home() {
 
         if (drinks) {
           const newCocktail = drinks.map(item => {
-            const { 
+            const {
               idDrink,
               strDrink,
               strDrinkThumb,
               strAlcoholic,
-              strGlass
+              strGlass,
             } = item;
 
             return {

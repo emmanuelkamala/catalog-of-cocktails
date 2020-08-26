@@ -5,10 +5,10 @@ export default function SearchForm({ setSearchTerm }) {
   const searchValue = useRef('');
 
   useEffect(() => {
-    searchValue.current.focus();
-  })
+    searchValue.current.focus()
+  });
 
-  const handleSubmit = (e) => e.preventDefault();
+  const handleSubmit = e => e.preventDefault();
 
   const searchCocktail = () => setSearchTerm(searchValue.current.value);
 

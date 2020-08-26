@@ -2,7 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from './Cocktail.module.css';
 
-export default function Cocktail({ id, image, info, name, glass }) {
+export default function Cocktail({
+  id,
+  image,
+  info,
+  name,
+  glass
+}) {
 
   return (
     <article className={classes.cocktail}>

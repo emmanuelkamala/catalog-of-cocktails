@@ -39,7 +39,7 @@ export default function SingleCocktail() {
             strIngredient5,
           ];
 
-          const newCocktail = { 
+          const newCocktail = {
             id,
             name,
             image,
@@ -67,55 +67,55 @@ export default function SingleCocktail() {
   }
 
   if (!cocktail) {
-    return <h2 className={classes.title}>No cocktail to display</h2>
-  } else {
-    const {
-      image,
-      info,
-      name,
-      instructions,
-      ingredients,
-      glass,
-      category
-    } = cocktail;
-
-    return (
-      <section className={`${classes.section} ${classes['cocktail-section']}`}>
-        <Link to="/" className={`${classes.btn} ${classes.btnPrimary}`}>Back Home</Link>
-        <h2 className={classes.title}>{name}</h2>
-        <div className={classes.drink}>
-          <img src={image} alt={name} />
-          <div className='drink-info'>
-            <p>
-              name: 
-              {name}
-            </p>
-            <p>
-              category: 
-              {category}
-            </p>
-            <p>
-              info: 
-              {info}
-            </p>
-            <p>
-              glass: 
-              {glass}
-            </p>
-            <p>
-              instructions: 
-              {instructions}
-            </p>
-            <p>ingredients: 
-              {
-                ingredients.map((item, index) => {
-                  return item ? <span key={index}>{item}</span> : null;
-                })
-              }
-            </p>
-          </div>
-        </div>
-      </section>
-    );
+    return <h2 className={classes.title}>No cocktail to display</h2>;
   }
+  const {
+    image,
+    info,
+    name,
+    instructions,
+    ingredients,
+    glass,
+    category,
+  } = cocktail;
+
+  return (
+    <section className={`${classes.section} ${classes['cocktail-section']}`}>
+      <Link to="/" className={`${classes.btn} ${classes.btnPrimary}`}>Back Home</Link>
+      <h2 className={classes.title}>{name}</h2>
+      <div className={classes.drink}>
+        <img src={image} alt={name} />
+        <div className="drink-info">
+          <p>
+            name:
+            {name}
+          </p>
+          <p>
+            category:
+            {category}
+          </p>
+          <p>
+            info:
+            {info}
+          </p>
+          <p>
+            glass: 
+            {glass}
+          </p>
+          <p>
+            instructions:
+            {instructions}
+          </p>
+          <p>
+            ingredients:
+            {
+              ingredients.map((item, index) => {
+                return item ? <span key={index}>{item}</span> : null;
+              })
+            }
+          </p>
+        </div>
+      </div>
+    </section>
+  );
 }
