@@ -189,7 +189,6 @@ Cocktails List
   grid-template-columns: repeat(auto-fill, minmax(370.8px, 1fr));
   column-gap: 1.8rem;
   row-gap: 1.8rem;
-  /* align-items: start; */
 }
 
 @media screen and (min-width: 992px) {
