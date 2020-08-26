@@ -1,5 +1,5 @@
-/* 
-====== 
+/*
+======
 Error
 ======
 */
@@ -31,7 +31,6 @@ Error
   font-size: 0.8rem;
   background: transparent;
   border-radius: 0.25rem;
-  display: inline-block;
 }
 
 .btnPrimary {
@@ -39,6 +38,7 @@ Error
   color: #fff;
   border-color: #476a2e;
 }
+
 .btnPrimary:hover {
   background: transparent;
   color: #476a2e;

@@ -1,5 +1,5 @@
-/* 
-====== 
+/*
+======
 Form
 ======
 */
@@ -15,7 +15,7 @@ Form
   padding: 1.25rem 1rem;
   text-transform: capitalize;
   border-radius: 0.25rem;
-  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.5);
 }
 
 .form-control label {
@@ -23,6 +23,7 @@ Form
   margin-bottom: 0.5rem;
   color: #476a2e;
 }
+
 .form-control input {
   width: 100%;
   border: none;
@@ -35,6 +36,7 @@ Form
 .section {
   padding: 4rem 0;
 }
+
 .title {
   font-size: 2rem;
   text-transform: capitalize;

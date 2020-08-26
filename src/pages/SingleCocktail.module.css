@@ -1,5 +1,5 @@
-/* 
-====== 
+/*
+======
 Cocktail
 ======
 */
@@ -7,22 +7,21 @@ Cocktail
 .cocktail-section {
   text-align: center;
 }
-.drink {
-  width: var(--smallWidth);
-  max-width: var(--fullWidth);
-  margin: 0 auto;
-  text-align: left;
-}
+
+
 .drink img {
-  border-radius: var(--mainBorderRadius);
+  border-radius: 0.25rem;
 }
+
 .drink p {
   font-weight: bold;
   text-transform: capitalize;
 }
+
 .drink span {
   margin-right: 0.5rem;
 }
+
 .drink-info {
   padding-top: 2rem;
 }
@@ -45,6 +44,9 @@ Cocktail
   grid-template-columns: 2fr 3fr;
   gap: 3rem;
   align-items: center;
+  width: 85vw;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .btn,
@@ -61,7 +63,6 @@ Cocktail
   font-size: 0.8rem;
   background: transparent;
   border-radius: 0.25rem;
-  display: inline-block;
 }
 
 .btnPrimary:hover {

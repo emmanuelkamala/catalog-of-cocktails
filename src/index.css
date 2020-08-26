@@ -1,12 +1,14 @@
-/* 
-====== 
+/*
+======
 Fonts
 ======
 */
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400|Solway:400,500&display=swap");
-/* 
-====== 
-Variables 
+
+/*
+======
+Variables
 ======
 */
 :root {
@@ -25,16 +27,17 @@ Variables
   --mainRed: #bd0303;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 0.3rem;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --lightShadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.5);
   --mainBorderRadius: 0.25rem;
   --smallWidth: 85vw;
   --maxWidth: 40rem;
   --fullWidth: 1170px;
 }
-/* 
-====== 
-Global Styles 
+
+/*
+======
+Global Styles
 ======
 */
 * {
@@ -51,6 +54,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
 }
+
 h1,
 h2,
 h3,
@@ -61,20 +65,25 @@ h6 {
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
 }
+
 p {
   margin-bottom: 1.25rem;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
   color: var(--mainBlack);
 }
+
 img {
   width: 100%;
   display: block;
 }
+
 .loading {
   text-transform: capitalize;
   text-align: center;
@@ -82,13 +91,15 @@ img {
   margin-top: 3rem;
   letter-spacing: var(--mainSpacing);
 }
+
 .loading img {
   width: 10rem;
   margin: 0 auto;
 }
-/* 
-====== 
-Buttons 
+
+/*
+======
+Buttons
 ======
 */
 .btn,
@@ -107,28 +118,34 @@ Buttons
   border-radius: var(--mainBorderRadius);
   display: inline-block;
 }
+
 .btn:hover {
   background: var(--primaryColor);
   color: var(--mainWhite);
 }
+
 .btn-white {
   background: transparent;
   color: var(--mainWhite);
   border-color: var(--mainWhite);
 }
+
 .btn-white:hover {
   background: var(--mainWhite);
   color: var(--primaryColor);
 }
+
 .btn-primary {
   background: var(--primaryColor);
   color: var(--mainWhite);
   border-color: var(--primaryColor);
 }
+
 .btn-primary:hover {
   background: transparent;
   color: var(--primaryColor);
 }
+
 .btn-block {
   width: 100%;
   display: block;
@@ -136,23 +153,27 @@ Buttons
   box-shadow: var(--lightShadow);
   text-align: center;
 }
+
 .btn-details {
   padding: 0.25rem 0.4rem;
 }
+
 .btn-details:hover {
   background: var(--primaryLightColor);
   border-color: var(--primaryLightColor);
 }
 
-/* 
-====== 
-Cocktails List 
+
+/*
+======
+Cocktails List
 ======
 */
 
 .section {
   padding: 4rem 0;
 }
+
 .section-title {
   font-size: 2rem;
   text-transform: capitalize;
@@ -161,6 +182,7 @@ Cocktails List
   margin-bottom: 3.5rem;
   margin-top: 1rem;
 }
+
 .cocktails-center {
   width: var(--smallWidth);
   margin: 0 auto;
@@ -172,8 +194,6 @@ Cocktails List
   /* align-items: start; */
 }
 
-
-
 @media screen and (min-width: 992px) {
   .drink {
     display: grid;
@@ -181,6 +201,7 @@ Cocktails List
     gap: 3rem;
     align-items: center;
   }
+  
   .drink-info {
     padding-top: 0;
   }
