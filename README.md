@@ -19,7 +19,7 @@ This is a React capstone project for building a catalogue of statistics app. I h
 
 ## Live Version
 
-[Live Link](https://catalog-of-cocktails.herokuapp.com/)
+[Live Link](http://catalog-of-cocktails.herokuapp.com/)
 
 
 ## Getting Started
