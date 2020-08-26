@@ -2,6 +2,7 @@
 
 This is a project for building a catalog of cocktails from a Cocktail API. A user can browse through the cocktails and be able to filter them based on the need of the user.
 
+![screenshot](./public/images/cocktail.png)
 ![screenshot](./public/images/cocktails.png)
 
 ## Built With
@@ -10,6 +11,8 @@ This is a project for building a catalog of cocktails from a Cocktail API. A use
 - CSS
 - ReactJS
 - Webpack
+- React Hooks
+- CSS Modules
 
 
 ## Live Version
