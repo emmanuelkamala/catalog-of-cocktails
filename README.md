@@ -1,6 +1,6 @@
 # Project: Catalog of Cocktails
 
-This is a React capstone project for building a catalogue of statistics app. I have selected an that shows stas of different cocktains. The cocktails are obtained from a Cocktail API called <a href='https://www.thecocktaildb.com/'>The Cocktail DB</a>. A user can browse through the cocktails and be able to filter them based on the need of the user. The app displays a list of cocktails and a user can also click a link to read on further details about a particular cocktail.
+This is a React capstone project for building a catalogue of statistics app. I have created an app that shows list of different cocktails. The cocktails are obtained from a Cocktail API called <a href='https://www.thecocktaildb.com/'>The Cocktail DB</a>. A user can browse through the cocktails and be able to filter them based on the need of the user. The app displays a list of cocktails and a user can also click a link to read on further details about a particular cocktail.
 
 ![screenshot](./public/images/cocktail.png)
 ![screenshot](./public/images/cocktails.png)
