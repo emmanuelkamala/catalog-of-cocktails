@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import Cocktail from './Cocktail';
 import classes from './CocktailList.module.css';
