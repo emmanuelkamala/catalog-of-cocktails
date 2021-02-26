@@ -11,12 +11,6 @@ This is a project for building a catalog of cocktails from a Cocktail API. A use
 - ReactJS
 - Webpack
 
-
-## Live Version
-
-[Live Link](http://catalog-of-cocktails.herokuapp.com/)
-
-
 ## Getting Started
 
 Open your terminal or text editor and use next command
